@@ -86,7 +86,7 @@ namespace gazebo
       sensors::RaySensorPtr right_cliff_sensor_;
       sensors::RaySensorPtr wall_sensor_;
 
-      tf::TransformBroadcaster transform_broadcaster_;
+      //tf::TransformBroadcaster *transform_broadcaster_;
       sensor_msgs::JointState js_;
 
       create_node::TurtlebotSensorState sensor_state_;
